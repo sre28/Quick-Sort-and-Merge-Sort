@@ -18,6 +18,8 @@ int quick(int array[], int low, int high) {
         array[p_index] = t;
         return j;
 }
+
+// Helper method for quick sort.
 void quick_sort(int array[],int n,int low, int high)
 {
     int p_index,i;
@@ -52,6 +54,7 @@ void merge(int array[], int low, int mid, int high) {
         array[i] = new_array[i];
 }
 
+// Helper method for Merge sort.
 void merge_sort(int array[],int n,int low, int high)
 {
     int mid;
