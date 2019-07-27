@@ -73,12 +73,10 @@ int main() {
     std::cin>>n;
 
     std::cout << "Enter array" << std::endl;
-
     for(i=0;i<n;i++)
     std::cin>>array[i];
 
     merge_sort(array,n,0,n-1);
-
     for(i=0;i<n;i++)
         std::cout <<array[i]<<" ";
 
